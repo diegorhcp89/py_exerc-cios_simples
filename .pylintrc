@@ -8,6 +8,8 @@ disable =
       R1716, #chained-comparison
       C3001, #unnecessary-lambda-assignment
       W1514, #unspecified-encoding
+      C0115, #missing-class-docstring
+      R0903, #too-few-public-methods
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
